@@ -1,6 +1,11 @@
 public class Program{   
     public static void main(String[] args) {
-        Ex01 ex1 = new Ex01();
-        ex1.executar();
+       // Ex01 ex1 = new Ex01();
+       // ex1.executar();
+
+        Ex02 ex2 = new Ex02();
+        ex2.executar();
+
+
     }
 }

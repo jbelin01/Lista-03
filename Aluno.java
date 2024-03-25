@@ -48,7 +48,7 @@ public class Aluno {
     }
     
 
-    public static double mediaAluno(Double nota1, Double nota2, Double nota3){
+    public static Double mediaAluno(Double nota1, Double nota2, Double nota3){
         return (nota1 + nota2 + nota3)/3;
     }
 
