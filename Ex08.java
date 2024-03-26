@@ -6,7 +6,10 @@ public class Ex08 {
         
         Aluno aluno = new Aluno();
 
-        Scanner leitor = new Scanner(System.in);        
+        Scanner leitor = new Scanner(System.in);   
+        
+        System.out.println("Informe nome: ");
+        aluno.setNome(leitor.nextLine());
     
         System.out.println("Informe nota 1: ");
         aluno.setNota1(leitor.nextDouble());
