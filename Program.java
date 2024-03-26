@@ -6,8 +6,12 @@ public class Program{
        // Ex02 ex2 = new Ex02();
        // ex2.executar();
 
-       Ex03 ex3 = new Ex03();
-       ex3.executar();
+       // Ex03 ex3 = new Ex03();
+       // ex3.executar();
+
+       Ex04 ex4 = new Ex04();
+       ex4.executar();
+
 
 
     }
