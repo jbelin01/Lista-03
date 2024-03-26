@@ -5,7 +5,9 @@ public class Aluno {
     private Double nota2;
     private Double nota3;
 
-    public Aluno(){}
+    public Aluno(){
+        
+    }
 
         public Aluno(String nome, Double nota1, Double nota2, Double nota3){
 
