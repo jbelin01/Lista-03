@@ -12,9 +12,14 @@ public class Program{
        // Ex04 ex4 = new Ex04();
        // ex4.executar();
 
-       Ex05 ex5 = new Ex05();
-       ex5.executar();
+       // Ex05 ex5 = new Ex05();
+       // ex5.executar();
 
+       // Ex06 ex6 = new Ex06();
+       // ex6.executar();
+
+       Ex07 ex7 = new Ex07();
+       ex7.executar();
 
     }
 }

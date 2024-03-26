@@ -20,5 +20,6 @@ public class Ex03 {
         System.out.println("o vendedor "+ vendedor.getNome() +" ganha um salário fixo de : R$" + vendedor.getSalario());
         System.out.println("No final do mês ele receberá: R$" + vendedor.salarioFinal(vendedor.getSalario(), vendedor.getVenda() ));
 
+        leitor.close();
      }
 }

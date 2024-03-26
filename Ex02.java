@@ -14,7 +14,8 @@ public class Ex02 {
         automovel.setCombustivel(leitor.nextDouble());
 
         System.out.println("Counsumo médio:" + automovel.consumoMedio(automovel.getdistancia(), automovel.getCombustivel()));
-               
+          
+        leitor.close();
     }
     
 }
