@@ -18,6 +18,7 @@ public void executar(){
 
     System.out.println("Informe nota 3: ");
     aluno.setNota3(leitor.nextDouble());
+    
     System.out.println("NOME DO ALUNO: " + aluno.getNome());
 
     System.out.println("Média do aluno:" + aluno.mediaAluno(aluno.getNota1(),aluno.getNota2(),aluno.getNota3()));

@@ -54,6 +54,27 @@ public class Aluno {
         return (nota1 + nota2 + nota3)/3;
     }
 
+    public String mencaoAluno(){
+        Double media = mediaAluno(nota1, nota2, nota3);
+            
+         if (media >= 7){
+
+            return "Aprovado!";
+
+         }
+         else if(media <=5){
+
+            return "Reprovado!";
+
+         }
+         else{
+
+            return "Recuperação!";
+
+         }
+
+
+    }
 
 
     
