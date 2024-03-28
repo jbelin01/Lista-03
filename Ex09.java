@@ -26,7 +26,7 @@ public class Ex09 {
         System.out.println("Existem " + contador + " números entre 10 e 150!");
         
 
-        
+        leitor.close();
 
     }
     

@@ -24,8 +24,11 @@ public class Program{
        // Ex08 ex8 = new Ex08();
        // ex8.executar();
 
-       Ex09 ex9 = new Ex09();
-       ex9.executar();
+       // Ex09 ex9 = new Ex09();
+       // ex9.executar();
+
+        Ex10 ex10 = new Ex10();
+        ex10.executar();
 
     }
 }
