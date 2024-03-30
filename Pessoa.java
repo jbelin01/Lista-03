@@ -8,10 +8,13 @@ public class Pessoa {
     public Pessoa(){
 
     }
-
-    public Pessoa(int idade, String nome, String sexo, String saude){
-
+    public Pessoa(int idade){
         this.idade = idade;
+    }
+
+    public Pessoa( String nome, String sexo, String saude){
+
+        
         this.nome = nome;
         this.sexo = sexo;
         this.saude = saude;
