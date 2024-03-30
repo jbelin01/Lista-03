@@ -5,7 +5,7 @@ public class Funcionario {
     private double salario;
     
   
-   // Construtor para o Exercício 18
+   
    public Funcionario(String nome, int idade, char sexo, double salario) {
     this.nome = nome;
     this.idade = idade;
@@ -13,7 +13,7 @@ public class Funcionario {
     this.salario = salario;
     }
 
-// Construtor para o Exercício 16
+
 public Funcionario(String nome, int idade, double salario) {
     this.nome = nome;
     this.idade = idade;
@@ -57,7 +57,7 @@ public Funcionario(String nome, int idade, double salario) {
     public double calcularAbono() {
         double abono = 0.0;
     
-        // Verifica sexo e idade para determinar o abono
+        
         if (sexo == 'M' || sexo == 'm') {
             if (idade >= 30) {
                 abono = 100.0;
