@@ -42,14 +42,14 @@ public class Program{
        // Ex14 ex14 = new Ex14();
        // ex14.executar();
 
-        Ex15 ex15 = new Ex15();
-        ex15.executar();
+       // Ex15 ex15 = new Ex15();
+       // ex15.executar();
  
-       // Ex12 ex12 = new Ex12();
-       // ex12.executar();
+       // Ex17 ex17 = new Ex17();
+       // ex17.executar();
  
-       // Ex12 ex12 = new Ex12();
-       // ex12.executar();
+        Ex18 ex18 = new Ex18();
+        ex18.executar();
  
        // Ex12 ex12 = new Ex12();
        // ex12.executar();
