@@ -3,19 +3,19 @@ import java.util.Scanner;
 public class Ex18 {
 
     public void executar() {
-        Scanner leitor = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite o nome do funcionário:");
-        String nome = leitor.nextLine();
+        String nome = scanner.nextLine();
 
         System.out.println("Digite a idade do funcionário:");
-        int idade = leitor.nextInt();
+        int idade = scanner.nextInt();
 
         System.out.println("Digite o sexo do funcionário (M/F):");
-        char sexo = leitor.next().charAt(0);
+        char sexo = scanner.next().charAt(0);
 
         System.out.println("Digite o salário do funcionário:");
-        double salario = leitor.nextDouble();
+        double salario = scanner.nextDouble();
 
         Funcionario funcionario = new Funcionario(nome, idade, sexo, salario);
 
@@ -26,6 +26,6 @@ public class Ex18 {
         System.out.println("Salário líquido: " + salarioLiquido);
         System.out.println("Abono: " + abono);
 
-        leitor.close();
+        scanner.close();
     }
 }

@@ -4,18 +4,23 @@ public class Funcionario {
     private char sexo;
     private double salario;
     
-    
-    private static double salarioMinimo = 1100.0;
-
-    
-    public Funcionario(String nome, int idade, char sexo, double salario) {
-        this.nome = nome;
-        this.idade = idade;
-        this.sexo = sexo;
-        this.salario = salario;
+  
+   // Construtor para o Exercício 18
+   public Funcionario(String nome, int idade, char sexo, double salario) {
+    this.nome = nome;
+    this.idade = idade;
+    this.sexo = sexo;
+    this.salario = salario;
     }
 
+// Construtor para o Exercício 16
+public Funcionario(String nome, int idade, double salario) {
+    this.nome = nome;
+    this.idade = idade;
+    this.salario = salario;
+}
     
+ 
     public String getNome() {
         return nome;
     }
@@ -51,8 +56,8 @@ public class Funcionario {
     
     public double calcularAbono() {
         double abono = 0.0;
-
-        
+    
+        // Verifica sexo e idade para determinar o abono
         if (sexo == 'M' || sexo == 'm') {
             if (idade >= 30) {
                 abono = 100.0;
@@ -66,11 +71,10 @@ public class Funcionario {
                 abono = 80.0;
             }
         }
-
+    
         return abono;
     }
 
-    
     public double calcularSalarioLiquido() {
         double abono = calcularAbono();
         return salario + abono;
