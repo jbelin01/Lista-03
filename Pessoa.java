@@ -3,16 +3,18 @@ public class Pessoa {
     private int idade;
     private String nome;
     private String sexo;
+    private String saude;
 
     public Pessoa(){
 
     }
 
-    public Pessoa(int idade){
+    public Pessoa(int idade, String nome, String sexo, String saude){
 
         this.idade = idade;
         this.nome = nome;
         this.sexo = sexo;
+        this.saude = saude;
 
     }
 
@@ -49,6 +51,17 @@ public class Pessoa {
     public void setSexo( String sexo ){
 
         this.sexo = sexo;
+
+    }
+    public String getSaude(){
+
+        return this.saude;
+
+    }
+
+    public void setSaude( String saude ){
+
+        this.saude = saude;
 
     }
 
