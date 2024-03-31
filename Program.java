@@ -48,22 +48,31 @@ public class Program{
        // Ex17 ex17 = new Ex17();
        // ex17.executar();
  
-        Ex18 ex18 = new Ex18();
-        ex18.executar();
- 
-       // Ex12 ex12 = new Ex12();
-       // ex12.executar();
- 
-       // Ex12 ex12 = new Ex12();
-       // ex12.executar();
- 
-       // Ex12 ex12 = new Ex12();
-       // ex12.executar();
- 
-       // Ex12 ex12 = new Ex12();
-       // ex12.executar();
+        //Ex18 ex18 = new Ex18();
+        //ex18.executar();
+
+        // Ex19 ex19 = new Ex19();
+        // ex19.executar();
   
-       // Ex12 ex12 = new Ex12();
-       // ex12.executar();
+        // Ex20 ex20 = new Ex20();
+        // ex20.executar();
+         
+        // Ex21 ex21 = new Ex21();
+        // ex21.executar();
+        
+        Ex22 ex22 = new Ex22();
+        ex22.executar();
+        
+        // Ex23 ex23 = new Ex23();
+        // ex23.executar();
+        
+        // Ex24 ex24 = new Ex24();
+        // ex24.executar();
+        
+        // Ex25 ex25 = new Ex25();
+        // ex25.executar();
+       
+        // Ex26 ex26 = new Ex26();
+        // ex26.executar();
     } 
 }
