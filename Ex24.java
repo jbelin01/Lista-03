@@ -23,12 +23,12 @@ public class Ex24 {
     }
 
     private double calcularNotaFinal(Estudante estudante) {
-        // Pesos das notas
+        
         double pesoLaboratorio = 2;
         double pesoSemestral = 3;
         double pesoExameFinal = 5;
 
-        // Cálculo da nota final (média ponderada)
+        
         double notaFinal = (estudante.getNotaLaboratorio() * pesoLaboratorio + estudante.getNotaSemestral() * pesoSemestral + estudante.getNotaExameFinal() * pesoExameFinal) / (pesoLaboratorio + pesoSemestral + pesoExameFinal);
 
         return notaFinal;
